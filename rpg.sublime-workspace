@@ -1,0 +1,481 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"active",
+				"active_action"
+			],
+			[
+				"nuM",
+				"num_rows"
+			],
+			[
+				"number",
+				"number_required"
+			],
+			[
+				"min",
+				"min_number"
+			],
+			[
+				"inventor",
+				"inventory_model"
+			],
+			[
+				"show",
+				"show_error"
+			],
+			[
+				"view_",
+				"view_active_action"
+			],
+			[
+				"level_s",
+				"level_size"
+			],
+			[
+				"le",
+				"level"
+			],
+			[
+				"sta",
+				"start_y"
+			],
+			[
+				"start",
+				"start_x"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"worlditem",
+				"worlditem_id"
+			],
+			[
+				"tye",
+				"typed_word"
+			],
+			[
+				"Mul",
+				"MultiListModel"
+			],
+			[
+				"ligh",
+				"light_manager"
+			],
+			[
+				"lig",
+				"Light"
+			],
+			[
+				"init",
+				"__init__"
+			],
+			[
+				"GL_SRC",
+				"GL_SRC_ALPHA"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 33.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/gmanuel/dev/rpg/img/COPYRIGHT",
+		"/var/www/n3/items",
+		"/media/New Volume/obvoz/lueg im Ordner Slovenija weg Fotis",
+		"/var/www/n3/application/controllers/admin/home.php",
+		"/var/www/n3/application/views/admin/includes/header.php",
+		"/var/www/n3/application/views/admin/includes/footer.php",
+		"/var/www/n3/application/views/admin/home/overview.php",
+		"/var/www/n3/application/views/includes/admin/header.php",
+		"/var/www/n3/application/views/admin/action/create.php",
+		"/var/www/n3/application/core/Admin_Controller.php",
+		"/var/www/n3/application/views/includes/header_admin.php",
+		"/var/www/n3/application/views/includes/footer_admin.php",
+		"/var/www/n3/application/views/includes/footer.php",
+		"/var/www/n3/application/views/includes/header.php",
+		"/var/www/n3/application/config/config.php",
+		"/var/www/n3/application/config/constants.php",
+		"/var/www/n3/application/views/action/completed_travel.php",
+		"/var/www/n3/application/views/action/view_active.php",
+		"/var/www/n3/application/views/action/completed.php",
+		"/var/www/n3/application/models/action_model.php",
+		"/var/www/n3/application/views/world/view_area.php",
+		"/var/www/n3/application/controllers/home.php",
+		"/var/www/n3/application/core/MY_Controller.php",
+		"/var/www/n3/application/core/Ingame_Controller.php",
+		"/var/www/n3/application/controllers/character.php",
+		"/var/www/n3/application/core/Public_Controller.php",
+		"/var/www/n3/application/controllers/action.php",
+		"/var/www/n3/application/controllers/index.html",
+		"/var/www/n3/application/controllers/inventory.php",
+		"/var/www/n3/application/controllers/message.php",
+		"/var/www/n3/application/controllers/world.php",
+		"/var/www/n3/application/controllers/worlditem.php",
+		"/var/www/n3/application/config/autoload.php",
+		"/var/www/n3/application/controllers/action_admin.php",
+		"/var/www/n3/application/core/MY_Admin_Controller.php",
+		"/var/www/n3/application/models/inventory_model.php",
+		"/var/www/n3/TODO",
+		"/var/www/n3/application/views/message/inbox.php",
+		"/var/www/n3/application/views/message/write.php",
+		"/var/www/n3/application/models/message_model.php",
+		"/var/www/n3/application/views/inventory/overview.php",
+		"/var/www/n3/application/views/action/view.php",
+		"/home/gmanuel/Dropbox/cloc",
+		"/home/gmanuel/Downloads/perlin-island-generator-v1-0/Perlin Island Generator/island_generator.py",
+		"/home/gmanuel/Downloads/perlin-island-generator-v1-0/Perlin Island Generator/perlin_noise.py",
+		"/var/www/n3/application/config/routes.php",
+		"/home/gmanuel/Katie-s-Rougish-PyGame/main.py",
+		"/home/gmanuel/Desktop/music",
+		"/media/3631-6432/gidder/repositories/n3.git/refs/heads/master",
+		"/media/3631-6432/gidder/repositories/n3.git/HEAD",
+		"/media/3631-6432/google_grauwilermanuel_00001.vcf",
+		"/home/gmanuel/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/var/www/n3/application/views/worlditem/view.php",
+		"/var/www/flyforum/application/views/forum.php",
+		"/var/www/flyforum/application/controllers/forum.php",
+		"/var/www/flyforum/application/controllers/home.php",
+		"/var/www/flyforum/application/views/include/header.php",
+		"/var/www/flyforum/application/views/include/footer.php",
+		"/var/www/flyforum/application/views/home.php",
+		"/var/www/flyforum/index.php",
+		"/var/www/flyforum/application/views/includes/header.php",
+		"/var/www/flyforum/application/views/includes/footer.php",
+		"/var/www/flyforum/application/core/MY_Controller.php",
+		"/var/www/flyforum/application/config/routes.php",
+		"/var/www/flyforum/application/controllers/public_controller.php",
+		"/var/www/flyforum/application/config/database.php",
+		"/var/www/flyforum/application/config/config.php",
+		"/var/www/flyforum/application/controllers/welcome.php",
+		"/var/www/flyforum/application/config/autoload.php",
+		"/media/My Passport/Videos/Futurama/Season 4/no info needed.txt",
+		"/var/www/n3/application/controllers/environment.php",
+		"/var/www/n3/application/config/database.php",
+		"/home/gmanuel/dev/dungeon-procedural/dungeon.py",
+		"/home/gmanuel/Desktop/Bewerbung/Ziwalig/info",
+		"/home/gmanuel/Desktop/Bewerbung/Diploma_shrunk/shrinkpdf.sh",
+		"/var/www/n3/application/views/character/overview.php",
+		"/home/gmanuel/.la/aaaa",
+		"/var/www/blog/application/core/MY_Controller.php",
+		"/var/www/blog/application/config/database.php",
+		"/var/www/blog/application/controllers/welcome.php",
+		"/var/www/blog/application/controllers/post.php",
+		"/var/www/blog/application/config/config.php",
+		"/var/www/blog/index.php",
+		"/var/www/blog/application/config/autoload.php",
+		"/home/gmanuel/Dropbox/dev/setup_ogre_app",
+		"/home/gmanuel/dev/ogre-polyvox/clean_ogre_cmake_project/dist/bin/plugins.cfg",
+		"/home/gmanuel/dev/ogre-polyvox/test1/CMakeLists.txt",
+		"/home/gmanuel/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/gmanuel/dev/ogre-polyvox/test1/BaseApplication.cpp",
+		"/var/www/blog/application/config/routes.php",
+		"/var/www/blog/application/controllers/posts.php",
+		"/home/gmanuel/dev/polyvox-panda/Makefile",
+		"/home/gmanuel/dev/polyvox-panda/main.cpp",
+		"/home/gmanuel/polyvox-0.2.1/examples/Basic/OpenGLWidget.h",
+		"/home/gmanuel/polyvox-0.2.1/examples/Basic/main.cpp",
+		"/home/gmanuel/polyvox-0.2.1/examples/Basic/Makefile",
+		"/var/www/n3/application/controllers/game/action.php",
+		"/var/www/n3/application/views/action/start_action.php",
+		"/var/www/n3/application/controllers/game/worlditem.php",
+		"/var/www/n3/application/views/action/view_action.php",
+		"/var/www/n3/application/views/action/busy.php",
+		"/home/gmanuel/dev/sfml-test/main.cpp",
+		"/home/gmanuel/dev/dynamicshadows/DynamicShadows/GameThumbnail.png",
+		"/home/gmanuel/dev/ogre/TutorialFramework/TutorialApplication.cpp",
+		"/var/www/n3/application/views/worlditem/action_list.php",
+		"/var/www/n3/application/controllers/game/character.php",
+		"/var/www/n3/application/controllers/game/environment.php",
+		"/var/www/n3/application/views/game/area_view.php",
+		"/var/www/n3/application/views/worlditem/action_list",
+		"/var/www/n3/application/views/area/worlditem_list.php",
+		"/var/www/n3/application/views/game/worlditem_list.php",
+		"/home/gmanuel/lib/cocos2d-0.5.5/samples/multiple_layers.py",
+		"/home/gmanuel/lib/cocos2d-0.5.5/samples/demo_sprites.py",
+		"/var/www/n3/application/models/environment_model.php",
+		"/home/gmanuel/indielib-crossplatform/IndieLib/linux/tutorials/basic/01_Installing/Makefile",
+		"/var/www/n3/application/core/MY_Model.php",
+		"/var/www/n3/application/controllers/welcome.php",
+		"/var/www/n3/index.php",
+		"/var/www/n3/application/models/environment.php",
+		"/var/www/n3/application/views/game/overview.php",
+		"/var/www/n3/application/views/welcome_message.php",
+		"/var/www/n3/application/controllers/game/overview.php",
+		"/var/www/n3/system/core/Config.php",
+		"/var/www/n3/application/index.html",
+		"/var/www/n3/system/index.html",
+		"/var/www/n3/application/config/user_agents.php",
+		"/var/www/n3/application/config/hooks.php",
+		"/home/gmanuel/dev/niemerval/characters/admin.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"lg",
+			"new",
+			"666666",
+			"Ingredient",
+			"ingredient",
+			"ingredients",
+			"\"name\"",
+			"duration",
+			"Duration",
+			"duration",
+			"\"name\"",
+			"name",
+			"Name",
+			"name",
+			"p",
+			"');\n",
+			"get_active",
+			"witem",
+			"worlditems",
+			"strikes",
+			"critical",
+			".)",
+			"		",
+			".');",
+			"div",
+			"$i",
+			"items",
+			"new_inventory",
+			"item",
+			"action",
+			"$amount",
+			"amount",
+			"result",
+			"p",
+			"products",
+			"actions_active",
+			"actions_products",
+			"']",
+			"action['",
+			"']",
+			"data['",
+			"ingredients",
+			"Products",
+			"products",
+			"Ingredients",
+			"ingredients",
+			"p",
+			"Products",
+			"products",
+			"items_used",
+			"collap",
+			"collapse",
+			"\"",
+			"post",
+			"posts",
+			"72",
+			"game/",
+			"conf",
+			"config",
+			"PolyVoxCore",
+			"TRUE",
+			"was_published_recently",
+			"comicUrl",
+			"typed_string",
+			"pythonListModel",
+			"zenItem",
+			"_zenItems",
+			"TT",
+			"Layout.",
+			"layout.",
+			"Layout",
+			"layout",
+			"addWidget",
+			"QWidget",
+			"glblend",
+			"glblendfunc",
+			"glfunc",
+			"255",
+			"draw",
+			"spotligh",
+			"0",
+			"255",
+			"gl_blend",
+			"tri_list",
+			"DLayer",
+			"vertex_list",
+			"tri_li",
+			"blend",
+			"glalphafunc",
+			"glblendfunc",
+			"gldisable",
+			"GL_COLOR_BUFFER_BIT",
+			"clear",
+			"GL_SRC_ALPHa",
+			"blend",
+			"scrollingmanager",
+			"randint"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.py",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 89.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true
+}
