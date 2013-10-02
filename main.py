@@ -14,10 +14,14 @@ class GameScene(Scene):
 
 		self.schedule(self.update)
 
+		# initialise player layer
+		self.player_layer = PlayerLayer(self.scroller)
+		self.scroller.add(self.player_layer, z=50)
+
 
 	def update(self, dt):
 		"""Updates the game approx. every 1/60 secs."""
-		pass
+		self.player_layer.update()
 
 
 	def load(self, map_filename):
@@ -39,6 +43,32 @@ class GameScene(Scene):
 			self.scroller.add(layer, name=name)
 
 
+class PlayerLayer(cocos.layer.ScrollableLayer):
+
+	# make the layer an event handler
+	is_event_handler = True
+	keys_pressed = set()
+
+	def __init__(self, scroller):
+		super(PlayerLayer, self).__init__()
+		self.scroller = scroller
+
+
+	def on_key_press(self, k, mod):
+		self.keys_pressed.add(k)
+
+
+	def on_key_release(self, k, mod):
+		self.keys_pressed.remove(k)
+
+
+	def draw(self):
+		# need to call parent draw() first, otherwise cocos is confused.
+		super(PlayerLayer, self).draw()
+
+
+	def update(self, dt):
+		pass
 
 
 cocos.director.director.init(width=800, height=600, caption='Testing', do_not_scale=True)
