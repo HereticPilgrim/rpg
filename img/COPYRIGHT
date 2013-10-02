@@ -1,8 +1,12 @@
-tileset_grass
+tileset_grass.png
 	http://fanart.pokefans.net/tilesets/28597
 
-tileset_sewer
+tileset_sewer.png
 	http://opengameart.org/content/sewer-tileset
 	
-tileset cave
+tileset_cave.png
 	http://opengameart.org/content/cave-tileset-0
+
+chest.png
+octocat.png
+	http://opengameart.org/content/browserquest-sprites-and-tiles
