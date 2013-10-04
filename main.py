@@ -6,7 +6,6 @@ from cocos.tiles import ScrollingManager
 
 from DungeonGenerator import *
 
-
 class GameScene(Scene):
 
 	def __init__(self):
@@ -15,8 +14,12 @@ class GameScene(Scene):
 		self.scroller = ScrollingManager()
 		self.add(self.scroller)
 
+		w = h = 50
+
 		self.dungeon_generator = DungeonGenerator()
-		self.generate_dungeon(20,20)
+		self.generate_dungeon(w,h)
+
+		self.scroller.add(self.dungeon_map)
 
 		self.schedule(self.update)
 
@@ -46,9 +49,7 @@ class GameScene(Scene):
 
 
 	def generate_dungeon(self, width, height):
-		cave = self.dungeon_generator.generate(width, height)
-
-
+		self.dungeon_map = self.dungeon_generator.generate(width, height)
 
 
 

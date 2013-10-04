@@ -1,10 +1,18 @@
 from __future__ import division # needed because of stupid number/number=int legacy
 from PerlinNoiseGenerator import PerlinNoiseGenerator
 
+from cocos import tiles
+
+from Dungeon import *
+
+
 class DungeonGenerator:
 	def __init__(self):
 		self.heightmap = []
 
+
+	def make_map(self, walkable):
+		return walkable
 
 	def generate(self, width, height):
 		"""
@@ -16,6 +24,8 @@ class DungeonGenerator:
 			* Make tile with lowest weighting value walkable.
 			* Calculate weighting function for adjacent tiles of newly added tile.
 			* Repeat last two steps until exit is reached.
+
+			Returns Dungeon map
 		"""
 		self.width = width
 		self.height = height
@@ -26,20 +36,24 @@ class DungeonGenerator:
 		self.exit_x = 5
 		self.exit_y = 5
 
-		# create an empty map with only unwalkable tiles
-		##
-
 		# generate the heightmap and weights
 		self.generate_heightmap()
 		self.calculate_weights()
 
-		# make tiles where the player should be able to move walkable
-		walkable = self.generate_walkable()
-		for tile in walkable:
-			pass
+		# make tiles walkable where the player should be able to move
+		walkable_area = self.generate_walkable()
+
+		dungeon_map = Dungeon(width, height, 16,16)
+
+		# return map
+		return dungeon_map
 
 
 	def calculate_weights(self):
+		""" 
+			Calculates the weights for each tile and stores it in self.weights for
+			faster look-up.
+		"""
 		# clear weights
 		self.weights = []
 		# generate weighting values for every tile
@@ -67,6 +81,9 @@ class DungeonGenerator:
 
 
 	def generate_heightmap(self):
+		"""
+			Generates the heightmap using Perlin noise.
+		"""
 		# clear heightmap
 		self.heightmap = []
 
