@@ -43,7 +43,9 @@ class DungeonGenerator:
 		# make tiles walkable where the player should be able to move
 		walkable_area = self.generate_walkable()
 
+		# create an empty dungeon map and pave walkable area
 		dungeon_map = Dungeon(width, height, 16,16)
+		dungeon_map.make_walkable(walkable_area)
 
 		# return map
 		return dungeon_map
