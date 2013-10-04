@@ -6,20 +6,6 @@ class DungeonGenerator:
 		self.heightmap = []
 
 
-	def weighting_function(self, x,y):
-		""" Weighting function determines whether or not tile at (x,y) is turned into walkable floor
-			or wall.
-			Takes into account (descending order of importance):
-			* How high the tile value is (heightmap). High = solid rock, low = normal earth.
-			  Low values rather give a walkable tile than solid rock.
-			* How far the tile is from the exit. Gives a slight trend towards the exit (negative weight!)
-			# * How far the tile is from the map borders. The farther from the map border, the more likely
-			  to be a walkable tile.
-		"""
-		w = self.heightmap[x][y] + ((x-self.exit_x)**2 + (y-self.exit_y)**2)/(self.width*self.height)
-		return w
-
-
 	def generate(self, width, height):
 		"""
 			Generates the dungeon according to the following steps, similar to A* algorithm:
@@ -34,10 +20,8 @@ class DungeonGenerator:
 		self.width = width
 		self.height = height
 
-		# self.start_x = width-5
-		# self.start_y = height-5
-		self.start_x = 7
-		self.start_y = 7
+		self.start_x = width-5
+		self.start_y = height-5
 
 		self.exit_x = 5
 		self.exit_y = 5
@@ -65,6 +49,21 @@ class DungeonGenerator:
 				w = self.weighting_function(x,y)
 				row.append(w)
 			self.weights.append(row)
+
+
+	def weighting_function(self, x,y):
+		""" Weighting function determines whether or not tile at (x,y) is turned into walkable floor
+			or wall.
+			Takes into account (descending order of importance):
+			* How high the tile value is (heightmap). High = solid rock, low = normal earth.
+			  Low values rather give a walkable tile than solid rock.
+			* How far the tile is from the exit. Gives a slight trend towards the exit (negative weight!)
+			# * How far the tile is from the map borders. The farther from the map border, the more likely
+			  to be a walkable tile.
+		"""
+		w = self.heightmap[x][y] - ((x-self.exit_x)**2 + (y-self.exit_y)**2)/(self.width*self.height)
+		return w
+
 
 
 	def generate_heightmap(self):
@@ -109,11 +108,12 @@ class DungeonGenerator:
 			# find lowest weight
 			for tile in opened:
 				x, y = tile
+
 				if self.weights[x][y] < min_weight:
 					min_weight = self.weights[x][y]
 					min_weight_tile = tile
 
-			print min_weight, min_weight_tile
+			# print min_weight, min_weight_tile
 			x,y = min_weight_tile
 
 			# close min_weight tile and add to walkable
@@ -121,19 +121,19 @@ class DungeonGenerator:
 			walkable.append(min_weight_tile)
 
 			# open adjacent unopened tiles
-			if (x+1,y) not in opened:
-				opened.append((x+1,y))
-			if (x-1,y) not in opened:
-				opened.append((x-1,y))
-			if (x,y+1) not in opened:
-				opened.append((x,y+1))
-			if (x,y-1) not in opened:
-				opened.append((x,y-1))
+			if x+1 < self.width and x-1 > 0:
+				if (x+1,y) not in opened and (x+1,y) not in walkable:
+					opened.append((x+1,y))
+				if (x-1,y) not in opened and (x-1,y) not in walkable:
+					opened.append((x-1,y))
+			if y+1 < self.height and y-1 > 0:
+				if (x,y+1) not in opened and (x,y+1) not in walkable:
+					opened.append((x,y+1))
+				if (x,y-1) not in opened and (x,y-1) not in walkable:
+					opened.append((x,y-1))
 
-			print opened
-
-			# if x == self.exit_x and y == self.exit_y:
-			if len(walkable) > 5:
+			# stop generation once exit is reached
+			if x == self.exit_x and y == self.exit_y:
 				exit_reached = True
 
 		return walkable
