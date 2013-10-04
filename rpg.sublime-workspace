@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"collision",
+				"collision_map"
+			],
+			[
+				"Player",
+				"PlayerController"
+			],
+			[
+				"colli",
+				"collidable"
+			],
+			[
 				"active",
 				"active_action"
 			],
@@ -91,8 +103,40 @@
 			"file": "main.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3334,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 7,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/gmanuel/dev/2d-shooter-darkness/main.py",
+			"settings":
+			{
+				"buffer_size": 5085,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/gmanuel/lib/cocos2d-0.5.5/test/test_platformer.py",
+			"settings":
+			{
+				"buffer_size": 3313,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/usr/local/lib/python2.7/dist-packages/cocos2d-0.5.5-py2.7.egg/cocos/tiles.py",
+			"settings":
+			{
+				"buffer_size": 45369,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -120,7 +164,15 @@
 	},
 	"file_history":
 	[
+		"/usr/lib/python2.7/copy.py",
+		"/home/gmanuel/lib/cocos2d-0.5.5/test/test_tiles.py",
+		"/home/gmanuel/lib/cocos2d-0.5.5/test/test_tmx.py",
+		"/home/gmanuel/lib/cocos2d-0.5.5/cocos/tiles.py",
+		"/home/gmanuel/lib/cocos2d-0.5.5/test/test_togglevisibility.py",
+		"/home/gmanuel/dev/2d-shooter-darkness/main.py",
 		"/home/gmanuel/dev/rpg/img/COPYRIGHT",
+		"/home/gmanuel/dev/rpg/README.md",
+		"/home/gmanuel/dev/rpg/.gitignore",
 		"/var/www/n3/items",
 		"/media/New Volume/obvoz/lueg im Ordner Slovenija weg Fotis",
 		"/var/www/n3/application/controllers/admin/home.php",
@@ -239,15 +291,7 @@
 		"/var/www/n3/application/controllers/welcome.php",
 		"/var/www/n3/index.php",
 		"/var/www/n3/application/models/environment.php",
-		"/var/www/n3/application/views/game/overview.php",
-		"/var/www/n3/application/views/welcome_message.php",
-		"/var/www/n3/application/controllers/game/overview.php",
-		"/var/www/n3/system/core/Config.php",
-		"/var/www/n3/application/index.html",
-		"/var/www/n3/system/index.html",
-		"/var/www/n3/application/config/user_agents.php",
-		"/var/www/n3/application/config/hooks.php",
-		"/home/gmanuel/dev/niemerval/characters/admin.py"
+		"/var/www/n3/application/views/game/overview.php"
 	],
 	"find":
 	{
@@ -265,6 +309,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"map",
 			"lg",
 			"new",
 			"666666",
@@ -380,7 +425,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -388,7 +433,60 @@
 					"file": "main.py",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1605,
+								1605
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 862.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 7,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/gmanuel/dev/2d-shooter-darkness/main.py",
+					"settings":
+					{
+						"buffer_size": 5085,
 						"regions":
 						{
 						},
@@ -401,10 +499,67 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1254.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/gmanuel/lib/cocos2d-0.5.5/test/test_platformer.py",
+					"settings":
+					{
+						"buffer_size": 3313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1586,
+								1586
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/usr/local/lib/python2.7/dist-packages/cocos2d-0.5.5-py2.7.egg/cocos/tiles.py",
+					"settings":
+					{
+						"buffer_size": 45369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19283,
+								19283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11382.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
