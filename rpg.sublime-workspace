@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"wak",
+				"walkable_area"
+			],
+			[
+				"propet",
+				"properties"
+			],
+			[
+				"dunge",
+				"dungeon_map"
+			],
+			[
 				"collision",
 				"collision_map"
 			],
@@ -103,15 +115,23 @@
 			"file": "main.py",
 			"settings":
 			{
-				"buffer_size": 3334,
+				"buffer_size": 817,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "README.md",
+			"file": "DungeonGenerator.py",
 			"settings":
 			{
-				"buffer_size": 7,
+				"buffer_size": 4457,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Dungeon.py",
+			"settings":
+			{
+				"buffer_size": 845,
 				"line_ending": "Unix"
 			}
 		},
@@ -121,14 +141,6 @@
 			{
 				"buffer_size": 5085,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/gmanuel/lib/cocos2d-0.5.5/test/test_platformer.py",
-			"settings":
-			{
-				"buffer_size": 3313,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -164,14 +176,20 @@
 	},
 	"file_history":
 	[
+		"/home/gmanuel/dev/rpg/README.md",
+		"/usr/local/lib/python2.7/dist-packages/cocos2d-0.5.5-py2.7.egg/cocos/layer/scrolling.py",
+		"/home/gmanuel/dev/rpg/PerlinNoiseGenerator.py",
+		"/home/gmanuel/dev/2d-shooter-darkness/main.py",
+		"/home/gmanuel/dev/roguelike/PerlinNoiseGenerator.py",
+		"/home/gmanuel/dev/roguelike/Dungeon.py",
+		"/home/gmanuel/dev/dungeon-procedural/dungeon.py",
+		"/home/gmanuel/lib/cocos2d-0.5.5/test/test_platformer.py",
 		"/usr/lib/python2.7/copy.py",
 		"/home/gmanuel/lib/cocos2d-0.5.5/test/test_tiles.py",
 		"/home/gmanuel/lib/cocos2d-0.5.5/test/test_tmx.py",
 		"/home/gmanuel/lib/cocos2d-0.5.5/cocos/tiles.py",
 		"/home/gmanuel/lib/cocos2d-0.5.5/test/test_togglevisibility.py",
-		"/home/gmanuel/dev/2d-shooter-darkness/main.py",
 		"/home/gmanuel/dev/rpg/img/COPYRIGHT",
-		"/home/gmanuel/dev/rpg/README.md",
 		"/home/gmanuel/dev/rpg/.gitignore",
 		"/var/www/n3/items",
 		"/media/New Volume/obvoz/lueg im Ordner Slovenija weg Fotis",
@@ -244,7 +262,6 @@
 		"/media/My Passport/Videos/Futurama/Season 4/no info needed.txt",
 		"/var/www/n3/application/controllers/environment.php",
 		"/var/www/n3/application/config/database.php",
-		"/home/gmanuel/dev/dungeon-procedural/dungeon.py",
 		"/home/gmanuel/Desktop/Bewerbung/Ziwalig/info",
 		"/home/gmanuel/Desktop/Bewerbung/Diploma_shrunk/shrinkpdf.sh",
 		"/var/www/n3/application/views/character/overview.php",
@@ -286,12 +303,7 @@
 		"/home/gmanuel/lib/cocos2d-0.5.5/samples/multiple_layers.py",
 		"/home/gmanuel/lib/cocos2d-0.5.5/samples/demo_sprites.py",
 		"/var/www/n3/application/models/environment_model.php",
-		"/home/gmanuel/indielib-crossplatform/IndieLib/linux/tutorials/basic/01_Installing/Makefile",
-		"/var/www/n3/application/core/MY_Model.php",
-		"/var/www/n3/application/controllers/welcome.php",
-		"/var/www/n3/index.php",
-		"/var/www/n3/application/models/environment.php",
-		"/var/www/n3/application/views/game/overview.php"
+		"/home/gmanuel/indielib-crossplatform/IndieLib/linux/tutorials/basic/01_Installing/Makefile"
 	],
 	"find":
 	{
@@ -306,9 +318,26 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"Cell(",
+			"rectcell",
+			"maplayer",
+			"rectmaplayer",
+			"dungeon_map",
+			"map",
+			"walkable",
+			"DungeonLayer",
+			"w",
+			"not ",
+			"not",
+			"y)",
+			"append(",
+			" and not in walkable",
+			"is",
+			"x+1,y",
+			"x+1",
 			"map",
 			"lg",
 			"new",
@@ -425,7 +454,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -433,15 +462,15 @@
 					"file": "main.py",
 					"settings":
 					{
-						"buffer_size": 3334,
+						"buffer_size": 817,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1605,
-								1605
+								308,
+								308
 							]
 						],
 						"settings":
@@ -450,43 +479,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 862.0,
+						"translation.y": 114.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "README.md",
+					"file": "DungeonGenerator.py",
 					"settings":
 					{
-						"buffer_size": 7,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7,
-								7
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/gmanuel/dev/2d-shooter-darkness/main.py",
-					"settings":
-					{
-						"buffer_size": 5085,
+						"buffer_size": 4457,
 						"regions":
 						{
 						},
@@ -503,35 +506,61 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1254.0,
+						"translation.y": 1197.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/home/gmanuel/lib/cocos2d-0.5.5/test/test_platformer.py",
+					"buffer": 2,
+					"file": "Dungeon.py",
 					"settings":
 					{
-						"buffer_size": 3313,
+						"buffer_size": 845,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1586,
-								1586
+								483,
+								483
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 342.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/gmanuel/dev/2d-shooter-darkness/main.py",
+					"settings":
+					{
+						"buffer_size": 5085,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4834,
+								4834
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3819.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -548,8 +577,8 @@
 						"selection":
 						[
 							[
-								19283,
-								19283
+								31626,
+								31626
 							]
 						],
 						"settings":
@@ -559,7 +588,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 11382.0,
+						"translation.y": 18475.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -600,7 +629,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 112.0
+		"height": 121.0
 	},
 	"output.unsaved_changes":
 	{
